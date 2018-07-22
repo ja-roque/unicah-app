@@ -1,6 +1,8 @@
 branch-defaults:
   default:
     environment: UnicahAppApi-env
+  master:
+    environment: UnicahAppApi-env
 environment-defaults:
   UnicahAppApi-env:
     branch: null
@@ -16,5 +18,5 @@ global:
   platform_name: null
   platform_version: null
   profile: null
-  sc: null
+  sc: git
   workspace_type: Application
