@@ -110,3 +110,15 @@ venv.bak/
 .elasticbeanstalk/*
 !.elasticbeanstalk/*.cfg.yml
 !.elasticbeanstalk/*.global.yml
+
+*.pem
+
+unicah_api/cambio de clave\.html
+
+unicah_api/cambio de clave exitoso\.html
+
+grades-servlet\.html
+
+initial-muid\.unicah\.edu\.html
+
+response_survey_test-servlet\.html

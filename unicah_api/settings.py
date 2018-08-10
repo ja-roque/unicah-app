@@ -27,8 +27,10 @@ DEBUG = True
 
 ALLOWED_HOSTS = [
     'UnicahAppApi-env.9tpbdimqzd.us-east-2.elasticbeanstalk.com',
+    '18.217.135.90:80',
     'localhost',
-    'localhost:5001'
+    'localhost:5001',
+    '*'
 ]
 
 
