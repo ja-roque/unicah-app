@@ -18,11 +18,11 @@ from django.urls import path
 from django.contrib import admin
 from django.conf.urls import include, url
 from django.urls import path
-
-from .views import GradecheckEndpoint
+from .views import GradecheckEndpoint, GradeQuery
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     url(r'^check_grades/$', GradecheckEndpoint.as_view()),
+    url(r'^get_grades/$', GradeQuery.as_view()),
 ]
 
